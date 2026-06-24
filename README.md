@@ -1,3 +1,3 @@
-# Pedro Pathing Visualizer
+# Peacock Visualizer
 
-Big Thanks to #16166 Watt's Up for developing this, we really appreciate your work.
+A visual, drag-and-drop autonomous path editor for competitive holonomic robots (specific to FTC), where you plot waypoints directly on the field, bend them into smooth curves, and watch your robot execute the full strafing, omnidirectional route in real time--the optimizer auto-routes a 3-ball collection path around field obstacles while minimizing centripetal acceleration through every curve (slowing into tight turns, accelerating out of straightaways, all bounded by friction-limited cornering speed), the same way Waymo and Tesla FSD plan a path through a cluttered scene by weighing every obstacle, angle, and velocity constraint to find the fastest collision-free line between where you are and where you need to be.
